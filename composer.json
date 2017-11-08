@@ -1,0 +1,18 @@
+{
+    "name": "mohamed/logger",
+    "authors": [
+        {
+            "name": "mohamednagy",
+            "email": "mohamed.n.haleem@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "AppWatcher\\": "src/"
+        }
+    }
+}
